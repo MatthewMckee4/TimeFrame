@@ -4,18 +4,17 @@
 
 ```mermaid
 erDiagram
-    CITY {
-        int city_id PK
+    User {
+        string UserID PK
         string name
-        string state_abbreviation FK
     }
-    STATE {
-        string state_abbreviation PK
+    Calendar {
+        string CalendarID PK
         string name
-        int country_id FK
+        string UserID FK
     }
-    COUNTRY {
-        int country_id PK
+    CalenderItem {
+        string CalendarID FK
         string name
     }
     COUNTRY ||--|{ STATE : "Has"
