@@ -1,7 +1,6 @@
-# TimeFrame
+# TimeFrame Calendar App
 
 TimeFrame is a calendar app
-
 
 ## Entity Relationship Diagram (ERD)
 
@@ -32,7 +31,7 @@ erDiagram
     }
 ```
 
-A new ERD shows a more complex relationship between User and Calendar; one user *owns* zero or more calendars, but one or more users *access* zero or more calendars. The reason the 'accesses' relationship has one mandatory user is because an owner themself is an accessor.
+A new ERD shows a more complex relationship between User and Calendar; one user _owns_ zero or more calendars, but one or more users _access_ zero or more calendars. The reason the 'accesses' relationship has one mandatory user is because an owner themself is an accessor.
 
 ```mermaid
 erDiagram
