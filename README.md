@@ -16,11 +16,13 @@ TimeFrame is a feature-rich calendar application designed to help users efficien
 ## Technologies Used
 
 ### Backend
+
 - **Flask**: A lightweight Python web framework for building the server-side components.
 - **SQLAlchemy**: A SQL toolkit and Object-Relational Mapping (ORM) library for database interactions.
 - **SQLite Database**: A lightweight and efficient database for storing calendar and user data.
 
 ### Frontend
+
 - **ReactJS**: A JavaScript library for building dynamic and interactive user interfaces.
 - **React Router**: For handling routing within the application.
 - **Axios**: A promise-based HTTP client for making API requests.
@@ -32,3 +34,4 @@ To set up TimeFrame on your local machine, follow these steps:
 1. Clone the repository.
    ```bash
    git clone https://github.com/MatthewMckee4/TimeFrame.git
+   ```
